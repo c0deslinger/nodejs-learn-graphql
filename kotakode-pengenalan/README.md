@@ -11,3 +11,8 @@ https://kotakode.com/blogs/15786/Belajar-GraphQL-dengan-NodeJS---1-Pengenalan
     - setup graphqlHttp
 - sebelum kode dijalankan, tambahkan script start pada file package.json.
 
+Mutation:
+- edit file server.js
+    - tambah input BookInputData
+    - tambah type RootMutation
+    - tambah mutation: RootMutation di schema
